@@ -13,25 +13,25 @@ export const Intro = () => {
                 <p className='text-3xl mb-6 font-bold'>Join me in your Coding Journey now</p>
             </div>
             <div className="links flex justify-center flex-col">
-                <Link to="/instagram" className="insta flex justify-center items-center p-4 rounded-lg  shadow-md hover:shadow-xl transition duration-300">
+                <div className="insta flex justify-center items-center p-4 rounded-lg  shadow-md hover:shadow-xl transition duration-300">
                     <FaInstagram className='h-[50px] w-[50px] m-2 text-pink-900' />
                     <p className='sm:text-3xl text-xl'>Instagram page :
-                        <span className='text-violet-500'>
-                            Click here to Join</span>
+                        <a className='text-violet-500' href="https://www.instagram.com/codewithaman22_8/" target='blank'>
+                            Click here to Join</a>
                     </p>
-                </Link>
-                <Link to="/whatsapp" className="whattsp flex justify-center items-center p-4 rounded-lg  shadow-md hover:shadow-xl transition duration-300">
+                </div>
+                <div className="whattsp flex justify-center items-center p-4 rounded-lg  shadow-md hover:shadow-xl transition duration-300">
                     <FaWhatsapp className='h-[50px] w-[50px] m-2 text-green-500' />
                     <p className='sm:text-3xl text-xl '>Whats'p channel :
-                        <span className='text-violet-500'>
-                            Click here to Join</span></p>
-                </Link>
-                <Link to="/portfolio" className="portfolio flex justify-center items-center p-4 rounded-lg  shadow-md hover:shadow-xl transition duration-300">
+                        <a className='text-violet-500' href="https://whatsapp.com/channel/0029VaA8Vxr1Hspor73uES0y" target='blank'>
+                            Click here to Join</a></p>
+                </div>
+                <div className="portfolio flex justify-center items-center p-4 rounded-lg  shadow-md hover:shadow-xl transition duration-300">
                     <FaRegUserCircle className='h-[50px] w-[50px] m-2 text-blue-600' />
                     <p className='sm:text-3xl text-xl'>Personal portfolio :
-                        <span className='text-violet-500'>
-                            Click here to See</span></p>
-                </Link>
+                        <a className='text-violet-500' href="https://aman2282003.github.io/Portfolio/" target='blank'>
+                            Click here to See</a></p>
+                </div>
             </div>
         </div>
     )
