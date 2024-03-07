@@ -13,7 +13,7 @@ export const Navbar = () => {
     };
 
     return (
-        <div className='flex  items-center justify-between px-[20px] py-[10px] dark:bg-gray-800'>
+        <div className='flex  items-center justify-between px-[20px] py-[10px] '>
             <div className='hidden md:flex items-center'>
                 <FaHome className='h-[40px] w-[40px] m-3 text-black ' />
                 <p className='text-xl font-bold'>Home</p>

@@ -64,9 +64,6 @@ export const Fcpit = () => {
                     </AccordionItem>
                 </Accordion>
 
-
-
-
             </div>
         </>
     )
