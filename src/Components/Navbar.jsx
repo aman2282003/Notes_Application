@@ -21,7 +21,7 @@ export const Navbar = () => {
             <div className='relative'>
                 <form onSubmit={handleSubmit}>
                     <input
-                        className="border border-violet-500 px-3 py-2 rounded-full w-[20px] md:w-[400px]"
+                        className="border border-violet-500 px-3 py-2 rounded-full w-[200px] md:w-[400px]"
                         placeholder="Search Subject"
                         type="text"
                         value={subject}
