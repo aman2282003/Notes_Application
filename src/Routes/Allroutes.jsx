@@ -8,6 +8,7 @@ export const Allroutes = () => {
           <Navbar />
           <Intro />
           <Subjects/>
+          
     </div>
   )
 }
