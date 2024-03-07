@@ -74,7 +74,7 @@ export const Webdev = () => {
                         <a className="link-style" href="https://drive.google.com/file/d/1FdDysY1vi3yS60wtF0Y4cu7zf-3yiJEy/view?usp=sharing" target="_blank" rel="noreferrer">SEO</a>
                         <a className="link-style" href="https://drive.google.com/file/d/1ye5euDS3UbyLPTz4DBXaeIlD_XoanaEw/view?usp=sharing" target="_blank" rel="noreferrer">SEO optimatization</a>
                         <a className="link-style" href="https://drive.google.com/file/d/1iihHYtUNRG_0FVuzEgYwZ4yXG85i5sds/view?usp=sharing" target="_blank" rel="noreferrer">Dynamic sites with PHP & MySQL</a>
-                        <a className="link-style" href="https://drive.google.com/file/d/1LEPO9j87eeU5sTZiGzfd04HYp1htDNBV/view?usp=sharing" target="_blank" rel="noreferrer">Xml Dom</a>
+                        <a className="link-style" href="https://drive.google.com/file/d/1LEPO9j87eeU5sTZiGzfd04HYp1htDNBV/view?usp=sharing" target="_blank" rel="noreferrer">WhXml dom</a>
 
                     </AccordionPanel>
                 </AccordionItem>
