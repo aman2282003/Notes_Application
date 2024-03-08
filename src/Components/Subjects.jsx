@@ -5,15 +5,24 @@ import { Fcpit } from './Fcpit'
 import { Python } from './Python'
 import { Dbms } from './Dbms'
 import { Ds } from './Ds'
+import { Ml } from './Ml'
+import { Gd } from './Gd'
+import { Gaming } from './Gaming'
+import { Communication } from './Communication'
 export const Subjects = () => {
     return (
         <div className='my-[30px]'>
-            <Webdev/>
-            <Dm/>
-            <Fcpit/>
-            <Python/>
-            <Dbms/>
-            <Ds/>
+            <Webdev />
+            <Fcpit />
+            <Python />
+            <Dbms />
+            <Communication />
+            <Ds />
+            <Ml />
+            <Gd />
+            <Gaming />
+
+            <Dm />
         </div>
     )
 }
