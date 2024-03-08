@@ -16,6 +16,7 @@ export const Subjects = () => {
             <Fcpit />
             <Python />
             <Dbms />
+            <Git/>
             <Communication />
             <Ds />
             <Ml />
