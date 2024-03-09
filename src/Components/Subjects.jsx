@@ -14,6 +14,8 @@ import { Php } from "./Php";
 import { Java } from "./Java";
 import { Linux } from "./Linux";
 import { Dataware } from "./Dataware";
+import { Ap } from "./Ap";
+import { R } from "./R";
 export const Subjects = () => {
   return (
     <div className="my-[30px]">
@@ -22,13 +24,16 @@ export const Subjects = () => {
       <Python />
       <Dbms />
       <Git />
-      <Dataware/>
+      <Dataware />
+      <Ap />
       <Communication />
+      <R/>
       <Ds />
       <Java />
       <Linux />
       <Ml />
       <Php />
+    
       <Gd />
       <Gaming />
 
