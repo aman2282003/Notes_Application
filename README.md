@@ -25,7 +25,7 @@ Coders' Companion is a robust and user-friendly notes application tailored speci
 ![Screenshot 2024-03-10 133640](https://github.com/aman2282003/TechHub_Project/assets/131010086/6342d9c1-ccbd-4adb-8185-d18d3a9f4d7f)
 ## Footer :
 ![Screenshot 2024-03-10 185456](https://github.com/aman2282003/TechHub_Project/assets/131010086/810e4776-b5be-47ee-a258-fed61e99fbcc)
-## Notes of Different Subject
+## Notes of Different Subject :
 ![Screenshot 2024-03-10 133748](https://github.com/aman2282003/TechHub_Project/assets/131010086/0ca7edf8-f827-43d1-b998-74217b52b44b)
 ## Sign-up Page:
 ![Screenshot 2024-03-10 185506](https://github.com/aman2282003/TechHub_Project/assets/131010086/83c81877-e6c9-420c-a902-aabb1fed8473)
