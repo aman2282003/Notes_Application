@@ -54,14 +54,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className="bg-violet-500  flex justify-center text-2xl text-center items-center text-black">
-        Copyright @ Made with <FaHeart className="bg-violet-500 mx-2 " /> by{" "}
-        <a
-          href="https://www.linkedin.com/in/amandeep-singh-50b655216/"
-          target="_blank"
-        >
-          <b className="bg-violet-500 ml-2">Aman</b>
-        </a>
+      <p className="bg-violet-500  font-bold flex justify-center text-2xl mx-5 mt-5 text-center items-center text-black">
+        @Copyright Made with by Aman
       </p>
     </footer>
   );

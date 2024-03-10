@@ -13,7 +13,7 @@ export const Intro = () => {
         <p className="sm:text-4xl text-2xl mb-6 font-bold">
           Discover the possibilities in the world of tech
         </p>
-        <p className="text-xl mb-6 px-20">
+        <p className="text-xl mb-6 sm:px-20 px-8 text-left">
           Dive into the world of technology and creativity with our curated
           collection of study notes and resources. From mastering programming
           languages to honing skills in graphic design and video editing, embark
