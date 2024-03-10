@@ -18,7 +18,6 @@ Coders' Companion is a robust and user-friendly notes application tailored speci
 
 - **Subject-specific Notes**: Coders' Companion organizes notes into distinct subjects relevant to coding and programming. From fundamental concepts like data structures and algorithms to specialized topics such as web development frameworks and machine learning algorithms, the application covers a broad spectrum of subjects.
 - **Responsive Design**: The site is fully responsive and adapts to different screen sizes.
-- **Real-time Price Updates**: The cart page updates in real-time as users add or remove items.
 - **Authentication**: The site uses authentication to ensure secure access to user account details.
 - **Pop-up Notification**: The site includes pop-up notifications to inform users about various events.
 
