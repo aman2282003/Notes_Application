@@ -1,4 +1,5 @@
 import React from "react";
+import { FaHeart } from "react-icons/fa";
 import { Button } from "@chakra-ui/react";
 import { FaInstagram, FaWhatsapp, FaRegUserCircle } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -52,6 +53,16 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      <p className="bg-violet-500  flex justify-center text-2xl text-center items-center text-black">
+        Copyright @ Made with <FaHeart className="bg-violet-500 mx-2 " /> by{" "}
+        <a
+          href="https://www.linkedin.com/in/amandeep-singh-50b655216/"
+          target="_blank"
+        >
+          <b className="bg-violet-500 ml-2">Aman</b>
+        </a>
+      </p>
     </footer>
   );
 };

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-import { useToast } from '@chakra-ui/react';
+import { useToast } from "@chakra-ui/react";
 
 export const Signin = () => {
     const toast = useToast();
@@ -20,14 +20,11 @@ export const Signin = () => {
         const { email, password } = formData;
 
         if (email.trim() && password.trim()) {
-            // Perform your authentication logic here
-            // For demonstration, just show a success toast
             toast({
-                title: "Signin Successful",
-                description: "You have successfully signed in.",
-                status: "success",
-                duration: 3000,
-                isClosable: true,
+              title: "Account created.",
+              status: "success",
+              duration: 9000,
+              isClosable: true,
             });
 
             localStorage.setItem('userData', JSON.stringify(formData));
