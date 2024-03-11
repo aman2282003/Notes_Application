@@ -55,7 +55,7 @@ const Footer = () => {
       </div>
 
       <p className="bg-violet-500  font-bold flex justify-center text-2xl mx-5 mt-5 text-center items-center text-black">
-        @Copyright Made with by Aman
+        @Copyright Made with love by Aman
       </p>
     </footer>
   );

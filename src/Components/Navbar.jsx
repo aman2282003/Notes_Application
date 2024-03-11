@@ -12,13 +12,9 @@ export const Navbar = () => {
     console.log("Searching for:", subject);
   };
 
-  return (
-    <div className="flex bg-violet-500 sticky top-0 items-center justify-between px-[20px] py-[10px] ">
-      <div className="bg-violet-500 hidden md:flex items-center">
-        <FaHome className="h-[40px] w-[40px] bg-violet-500 m-3 text-black " />
-        <p className="text-xl font-bold bg-violet-500 ">Home</p>
-      </div>
-      <div className="relative bg-violet-500 ">
+  function Search() {
+    return (
+      <>
         <form onSubmit={handleSubmit} className="bg-violet-500">
           <input
             className="border border-violet-500 px-3 py-2  rounded-full w-[200px] md:w-[400px]"
@@ -36,6 +32,17 @@ export const Navbar = () => {
             <FaSearch className="h-[20px] w-[20px] " />
           </button>
         </form>
+      </>
+    );
+  }
+  return (
+    <div className="flex bg-violet-500 sticky top-0 items-center justify-between px-[20px] py-[10px] ">
+      <div className="bg-violet-500 hidden md:flex items-center">
+        <FaHome className="h-[40px] w-[40px] bg-violet-500 m-3 text-black " />
+        <p className="text-xl font-bold bg-violet-500 ">Home</p>
+      </div>
+      <div className="relative bg-violet-500 ">
+        <Search />
       </div>
       <div>
         <Link to="/signin">
