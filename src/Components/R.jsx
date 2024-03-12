@@ -11,7 +11,10 @@ import {
 export const R = () => {
   return (
     <>
-      <h1 className="underline underline-offset-8 text-center text-violet-500 mt-20 mb-16 sm:text-7xl text-5xl  font-bold">
+      <h1
+        id="r programming"
+        className="underline underline-offset-8 text-center text-violet-500 mt-20 mb-16 sm:text-7xl text-5xl  font-bold"
+      >
         R Programming
       </h1>
 

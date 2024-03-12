@@ -22,9 +22,10 @@ export const Navbar = () => {
             type="text"
             value={subject}
             onChange={(e) => {
-              setSubject(e.target.value);
+              setSubject(e.target.value.toLowerCase());
             }}
           />
+
           <button
             type="submit"
             className="absolute right-3 top-1/2 transform -translate-y-1/2"
@@ -35,6 +36,7 @@ export const Navbar = () => {
       </>
     );
   }
+
   return (
     <div className="flex bg-violet-500 sticky top-0 items-center justify-between px-[20px] py-[10px] ">
       <div className="bg-violet-500 hidden md:flex items-center">
@@ -45,11 +47,14 @@ export const Navbar = () => {
         <Search />
       </div>
       <div>
-        <Link to="/signin">
+        {/* <Link to="/signin">
           <button className="text-2xl bg-violet-500 font-bold">
             {isAuth ? "Logout" : "SignIn"}
           </button>
-        </Link>
+                  
+        </Link> */}
+
+        <a href={`#${subject}`}>Click me</a>
       </div>
     </div>
   );

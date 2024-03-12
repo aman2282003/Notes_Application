@@ -11,11 +11,14 @@ import {
 export const Java = () => {
   return (
     <>
-      <h1 className="underline underline-offset-8 text-center text-violet-500 mt-20 mb-16 sm:text-7xl text-5xl  font-bold">
+      <h1
+        id="java"
+        className="underline underline-offset-8 text-center text-violet-500 mt-20 mb-16 sm:text-7xl text-5xl  font-bold"
+      >
         Java
       </h1>
 
-      <div className="md:mx-[18rem] mx-[1rem]">
+      <div className=" md:mx-[18rem] mx-[1rem]">
         <Accordion
           allowToggle
           className="text-3xl border border-violet-500"

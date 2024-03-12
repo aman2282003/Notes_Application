@@ -11,7 +11,10 @@ import {
 export const Git = () => {
   return (
     <>
-      <h1 className="underline underline-offset-8 text-center text-violet-500 mt-20 mb-16 sm:text-7xl text-5xl  font-bold">
+      <h1
+        id="git"
+        className="underline underline-offset-8 text-center text-violet-500 mt-20 mb-16 sm:text-7xl text-5xl  font-bold"
+      >
         Git & Github
       </h1>
 
