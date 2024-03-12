@@ -10,6 +10,8 @@ export const Navbar = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Searching for:", subject);
+    <a href={`#${subject}`}></a>;
+    window.location.href = `#${subject}`;
   };
 
   function Search() {
@@ -19,6 +21,7 @@ export const Navbar = () => {
           <input
             className="border border-violet-500 px-3 py-2  rounded-full w-[200px] md:w-[400px]"
             placeholder="Search Subject"
+            autoFocus
             type="text"
             value={subject}
             onChange={(e) => {
@@ -47,14 +50,12 @@ export const Navbar = () => {
         <Search />
       </div>
       <div>
-        {/* <Link to="/signin">
+        <Link to="/signin">
           <button className="text-2xl bg-violet-500 font-bold">
             {isAuth ? "Logout" : "SignIn"}
           </button>
                   
-        </Link> */}
-
-        <a href={`#${subject}`}>Click me</a>
+        </Link>
       </div>
     </div>
   );
