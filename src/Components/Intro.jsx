@@ -52,7 +52,7 @@ export const Intro = () => {
         </div>
 
         <div className="whattsp flex justify-center items-center p-4 rounded-lg  shadow-2xl -xl m-3">
-          <FaUser className="h-[50px] w-[50px] m-2 text-green-500" />
+          <FaUser className="h-[50px] w-[50px] m-2 text-blue-500" />
           <p className="sm:text-3xl text-xl ">
             personal portfolio :
             <a

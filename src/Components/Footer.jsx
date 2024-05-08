@@ -16,7 +16,7 @@ const Footer = () => {
               Find us on any of these platforms, we respond 1-2 business days.
             </h5>
             <div className="bg-violet-500 mt-6 lg:mb-0 mb-6 flex flex-wrap">
-              <a href="https://www.instagram.com/miss_madhu.01/" target="blank">
+              <a href="https://www.instagram.com/aman228_2003/" target="blank">
                 <FaInstagram className="h-[50px]  w-[50px] m-5 text-pink-900" />
               </a>
               <a
@@ -49,7 +49,7 @@ const Footer = () => {
       </div>
 
       <p className="bg-violet-500  font-bold flex justify-center text-2xl mx-5 mt-5 text-center items-center text-black">
-        @Copyright Made with love by Nikita
+        @Copyright Made with love by Aman
       </p>
     </footer>
   );
