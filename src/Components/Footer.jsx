@@ -25,7 +25,7 @@ const Footer = () => {
               >
                 <FaWhatsapp className="h-[50px] w-[50px] m-5 text-green-500" />
               </a>
-              <a href="https://github.com/nick2915" target="blank">
+              <a href="https://github.com/aman2282003" target="blank">
                 <FaGithub className="h-[50px] w-[50px]  m-5 text-grey-600" />
               </a>
             </div>
