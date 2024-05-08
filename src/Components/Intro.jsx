@@ -9,7 +9,7 @@ export const Intro = () => {
         <h1 className="sm:text-8xl text-6xl font-bold mt-20 mb-10 text-violet-500">
           Welcome
         </h1>
-        <p className="sm:text-6xl text-4xl mb-6">to Nitika's Code Tech Hub</p>
+        <p className="sm:text-6xl text-4xl mb-6">to Aman's Code Tech Hub</p>
         <p className="sm:text-4xl text-2xl mb-6 font-bold">
           Discover the possibilities in the world of tech
         </p>
@@ -30,7 +30,7 @@ export const Intro = () => {
             Instagram page :
             <a
               className="text-violet-500"
-              href="https://www.instagram.com/miss_madhu.01/"
+              href="https://www.instagram.com/aman228_2003/"
               target="blank"
             >
               Click here to Join
