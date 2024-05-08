@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaWhatsapp, FaRegUserCircle } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp, FaRegUserCircle, FaUser } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export const Intro = () => {
@@ -44,6 +44,20 @@ export const Intro = () => {
             <a
               className="text-violet-500"
               href="https://whatsapp.com/channel/0029VaA8Vxr1Hspor73uES0y"
+              target="blank"
+            >
+              Click here to Join
+            </a>
+          </p>
+        </div>
+
+        <div className="whattsp flex justify-center items-center p-4 rounded-lg  shadow-2xl -xl m-3">
+          <FaUser className="h-[50px] w-[50px] m-2 text-green-500" />
+          <p className="sm:text-3xl text-xl ">
+            personal portfolio :
+            <a
+              className="text-violet-500"
+              href="https://aman2282003.github.io/Portfolio/"
               target="blank"
             >
               Click here to Join
