@@ -23,7 +23,7 @@ export const Intro = () => {
           Join me in your Coding Journey now
         </p>
       </div>
-      <div className="links flex justify-center flex-col">
+{/*       <div className="links flex justify-center flex-col">
         <div className="insta flex justify-center items-center p-4 rounded-lg  shadow-2xl -xl m-3">
           <FaInstagram className="h-[50px] w-[50px] m-2 text-pink-900" />
           <p className="sm:text-3xl text-xl">
@@ -36,7 +36,7 @@ export const Intro = () => {
               Click here to Join
             </a>
           </p>
-        </div>
+        </div> */}
         <div className="whattsp flex justify-center items-center p-4 rounded-lg  shadow-2xl -xl m-3">
           <FaWhatsapp className="h-[50px] w-[50px] m-2 text-green-500" />
           <p className="sm:text-3xl text-xl ">
